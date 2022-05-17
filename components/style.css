@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+#my_table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  width: 100%;
+  background-color: unset;
+  box-sizing: border-box;
+}
+
+#my_table td,
+#my_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#my_table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#my_table tr:hover {
+  background-color: #ddd;
+}
+
+#my_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
